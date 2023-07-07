@@ -5,7 +5,7 @@ import { Container } from './styled';
 interface Props {
   children: ReactNode;
   background?: boolean;
-  sectionId: string;
+  sectionId?: string;
 }
 
 const re = /[^a-z0-9-_]/gi;
