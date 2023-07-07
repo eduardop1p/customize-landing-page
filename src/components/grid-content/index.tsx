@@ -8,7 +8,7 @@ interface Props {
   title: string;
   html: string;
   background?: boolean;
-  sectionId: string;
+  sectionId?: string;
 }
 
 export const GridContent = ({
